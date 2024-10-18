@@ -1,4 +1,3 @@
-require('dotenv').config();
 const { chromium } = require('playwright');
 const LoginPage = require('../pageObjects/loginPage');
 const InventoryPage = require('../pageObjects/inventoryPage');
